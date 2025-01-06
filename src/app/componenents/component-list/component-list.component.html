@@ -1,0 +1,19 @@
+
+<h1 class="text-center">Museum’s Public Data</h1>
+<p class="mx-auto text-center">Provided by <a href="https://www.artic.edu/">Art Institute of Chicago</a></p>
+
+<div class="w-100 d-flex justify-content-center">
+  <div class="btn btn-light" (click)="changeView('cards')"><mat-icon class="icon" [class.active]="showTable" aria-hidden="false" aria-label="Example home icon" fontIcon="list"></mat-icon>
+  </div>
+  <div class="btn btn-light" (click)="changeView('grid')"><mat-icon class="icon" [class.active]="!showTable" aria-hidden="false" aria-label="Example home icon" fontIcon="grid_view"></mat-icon>
+  </div>
+</div> 
+
+<div *ngIf="!showTable" class="d-flex flex-wrap w-75 mx-auto gap-3 justify-content-center">
+  <div class="card-artwork" *ngFor="let artwork of artwork">
+    <app-card [artwork]="artwork"></app-card>
+  </div>
+</div>
+
+<app-grid *ngIf="showTable" [artwork]="artwork"></app-grid>
+gti 

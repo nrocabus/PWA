@@ -1,0 +1,24 @@
+
+ 
+ <div class="btn d-flex " [routerLink]="['/']"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_back"></mat-icon>BACK</div>
+
+ <div *ngIf="artwork" class="w-100 d-flex flex-column align-items-center gap-3">
+    <div class="card-artwork">
+        <app-card [artwork]="artwork"></app-card>
+    </div>
+    <div class="w-50 d-flex justify-content-center">
+
+        <button mat-raised-button *ngIf="!showDetails" (click)="toggleDetails()">Show all details</button>
+        
+        <div *ngIf="showDetails">
+
+            <mat-tab-group animationDuration="0ms">
+                <mat-tab label="Title">{{artwork.title}}</mat-tab>
+                <mat-tab label="Author">{{artwork.artist_display}}</mat-tab>
+                <mat-tab label="Description"><div [innerHTML]="artwork.description"></div><div *ngIf="!artwork.description">Description not provided.</div></mat-tab>
+            </mat-tab-group>
+
+        </div>
+    </div>
+ </div>
+

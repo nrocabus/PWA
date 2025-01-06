@@ -1,0 +1,10 @@
+<mat-card  role="button" routerLink="/detail/{{artwork.id}}" class="example-card" appearance="outlined">
+
+    <img mat-card-image src="https://www.artic.edu/iiif/2/{{artwork.image_id}}/full/843,/0/default.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        {{artwork.artist_display}}
+      </p>
+    </mat-card-content>
+
+  </mat-card>
