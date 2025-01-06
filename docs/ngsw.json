@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1736173891529,
-  "index": "/index.html",
+  "timestamp": 1736174024647,
+  "index": "/PWA/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.7c03a5b8e9209164.js",
-        "/manifest.webmanifest",
-        "/polyfills.44836b423109884f.js",
-        "/runtime.11c5c57518a28348.js",
-        "/styles.9fe6f0b0cd1b5b24.css"
+        "/PWA/favicon.ico",
+        "/PWA/index.html",
+        "/PWA/main.7c03a5b8e9209164.js",
+        "/PWA/manifest.webmanifest",
+        "/PWA/polyfills.44836b423109884f.js",
+        "/PWA/runtime.11c5c57518a28348.js",
+        "/PWA/styles.9fe6f0b0cd1b5b24.css"
       ],
       "patterns": [
         "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.2\\/dist\\/css\\/bootstrap\\.min\\.css"
@@ -31,14 +31,14 @@
         "ignoreVary": true
       },
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/PWA/assets/icons/icon-128x128.png",
+        "/PWA/assets/icons/icon-144x144.png",
+        "/PWA/assets/icons/icon-152x152.png",
+        "/PWA/assets/icons/icon-192x192.png",
+        "/PWA/assets/icons/icon-384x384.png",
+        "/PWA/assets/icons/icon-512x512.png",
+        "/PWA/assets/icons/icon-72x72.png",
+        "/PWA/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -61,21 +61,21 @@
     }
   ],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "b37fc62ddad8487a4c611272b415e5db49226a01",
-    "/main.7c03a5b8e9209164.js": "96bfb4b5e9a2b42947adbc19858f943f138b68d5",
-    "/manifest.webmanifest": "ead708c6ec969d82e16de2ccda1de3422a23fb8b",
-    "/polyfills.44836b423109884f.js": "6315c580c71093b896d0fe55376069983970a48c",
-    "/runtime.11c5c57518a28348.js": "8dc4c8209813c1588191a23c25da6d55e24bfc7a",
-    "/styles.9fe6f0b0cd1b5b24.css": "43ac1dcea06e776f549135012b4e39e3bd599d66"
+    "/PWA/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/PWA/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/PWA/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/PWA/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/PWA/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/PWA/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/PWA/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/PWA/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/PWA/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/PWA/index.html": "79078e861c00d151f3e08bf5705d4b974c5285ed",
+    "/PWA/main.7c03a5b8e9209164.js": "96bfb4b5e9a2b42947adbc19858f943f138b68d5",
+    "/PWA/manifest.webmanifest": "ead708c6ec969d82e16de2ccda1de3422a23fb8b",
+    "/PWA/polyfills.44836b423109884f.js": "6315c580c71093b896d0fe55376069983970a48c",
+    "/PWA/runtime.11c5c57518a28348.js": "8dc4c8209813c1588191a23c25da6d55e24bfc7a",
+    "/PWA/styles.9fe6f0b0cd1b5b24.css": "43ac1dcea06e776f549135012b4e39e3bd599d66"
   },
   "navigationUrls": [
     {
