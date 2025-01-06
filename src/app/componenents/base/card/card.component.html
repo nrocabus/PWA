@@ -1,6 +1,6 @@
-<mat-card  role="button" routerLink="/detail/{{artwork.id}}" class="example-card" appearance="outlined">
+<mat-card role="button" routerLink="/detail/{{artwork.id}}" appearance="outlined">
 
-    <img mat-card-image src="https://www.artic.edu/iiif/2/{{artwork.image_id}}/full/843,/0/default.jpg" alt="Photo of a Shiba Inu">
+    <img mat-card-image src="https://www.artic.edu/iiif/2/{{artwork.image_id}}/full/843,/0/default.jpg" alt="Image of {{artwork.title}}">
     <mat-card-content>
       <p>
         {{artwork.artist_display}}

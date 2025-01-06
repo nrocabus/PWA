@@ -9,11 +9,13 @@
   </div>
 </div> 
 
-<div *ngIf="!showTable" class="d-flex flex-wrap w-75 mx-auto gap-3 justify-content-center">
+
+<mat-spinner *ngIf="artwork.length<=0" class="mx-auto"></mat-spinner>
+
+<div [@listAnimation] *ngIf="!showTable && artwork.length>0" class="d-flex flex-wrap w-75 mx-auto gap-3 justify-content-center">
   <div class="card-artwork" *ngFor="let artwork of artwork">
-    <app-card [artwork]="artwork"></app-card>
+    <app-card class="animation-card" [artwork]="artwork"></app-card>
   </div>
 </div>
 
 <app-grid *ngIf="showTable" [artwork]="artwork"></app-grid>
-gti 
