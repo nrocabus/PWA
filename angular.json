@@ -31,8 +31,7 @@
             ],
             "scripts": [],
             "serviceWorker": true,
-            "ngswConfigPath": "ngsw-config.json",
-            "baseHref": "/PWA/"
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
